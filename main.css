@@ -126,4 +126,8 @@ body {
     border: 1px solid #7B7B6B;
 }
 
+.btn.btn-block {
+    display: block;
+    width: 100%;
+}
 
