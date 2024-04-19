@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+
+    <title>Bootstrap Tutorial Sample Page</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md">
+    <a href="https://www.malaysia.travel/" class="navbar-brand" target="_blank">Taiping, Perak</a>
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main-navigation">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact-form">Contact</a>
+            </li>
+        </ul>
+    </div>
+  </nav>
+
+  <header class="page-header header container-fluid">
+    <div class="overlay">
+        <div class="description">
+            <h1>The Quaint Taiping</h1>
+            <p>Tranquility that you could never find somewhere else</p>      
+            <a href="https://youtu.be/xfkTrpZuvNE?si=q1aiZaOcDKOxZ5ng" target="_blank">
+                <button class="btn btn-outline-secondary btn-lg">Tell Me More!</button> 
+            </a>   
+        </div>
+    </div>
+  </header>
+
+    <div class="container features" id="about">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <h3 class="feature-title">Telegraph Museum</h3>
+                <img src="images/Muzium-Telegraf-1.jpg" alt="" class="img-fluid">
+                <p>Established in 1876 as the Telegraph Office at the end of the Taiping-Port Weld railroad, it later evolved into the Posts & Telegraph Department in 1885, offering telegraph, telephone, postal, and banking services—the first in the Malay States to do so. Through the Japanese occupation and the post-war era, this colonial gem witnessed significant transformations in its services. Today, it stands as a cherished landmark, showcasing artefacts, photos, and stories that trace the evolution of telecommunications. Don't miss the courtyard featuring plants integral to Malaysia's telegraph history.</p>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <h3 class="feature-title">Taiping Lake Garden</h3>
+                <img src="images/taiping-lake-garden.jpg" class="img-fluid ">
+                <p>Nestled in the heart of Taiping, this verdant oasis offers a tranquil escape with its scenic lakes, lush greenery, and charming bridges. Originally a mining ground, it was transformed into a picturesque park featuring diverse flora, fauna, and recreational facilities over the years. The gardens hold historical significance as a testament to Taiping's commitment to preserving nature amidst urban development. Perfect for leisurely strolls, picnics, or simply unwinding amidst nature's embrace.
+                </p>
+            </div>
+            
+            <div class="col-lg-4 col-md-4 col-sm-12" id="contact-form">
+                <h3 class="feature-title">Get in Touch!</h3>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name" name="">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email Address" name="email">
+                </div>
+                <div class="form-group">
+                    <textarea rows="4" class="form-control"></textarea>
+                </div>
+                <input type="submit" class="btn btn-secondary btn-block" value="Send">
+            </div>
+    
+        </div>
+    </div>
+</body>
+</html>
